@@ -1,0 +1,126 @@
+.btn {
+  background-color:#FFF;
+  border-color: #FFF;
+  transform: scale(1.2);
+}
+.btn:hover, btn:active {
+  background-color:#069;
+  border-color: #FFF;
+}
+.fa-bars {
+  color: #0074D9;
+  transform: scale(1.5);
+}
+
+.fa-bars:hover, .fa-bars:active {
+  color:#6FF;
+}
+
+.dropdown-item:hover {
+  transform: scale(1.1);
+  background-color:#069;
+  color:#FFF;
+  font-weight:bold;
+}
+
+.home-text h1 {
+  color:#069;	
+}
+
+.home-text p {
+  color:#666;	
+}
+
+.home-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.home-img img {
+  position: absolute;
+  top: -250px;
+  left: 50px;
+}
+
+.home-img img:nth-child(1) {
+  z-index: 2;
+}
+
+.home-img img:nth-child(2) {
+  z-index: 1;
+}
+
+.rotate-on-hover {
+  transition: transform 0.5s;
+}
+
+.rotate-on-hover:hover {
+  transform: rotate(200deg);
+}
+
+.btn-custom {
+  background-color:#FFF;
+  color:#069;
+  border-color: #069;	
+}
+
+.btn-custom:hover {
+  background-color:#069;
+  color:#FFF;
+}
+
+.btn-CV {
+  background-color:#09F;
+  color:#FFF;
+}
+.btn-CV:hover {
+  background-color:#069;
+  color:#FFF;
+}
+
+.fab {
+  transform: scale(2);
+}
+.fa-angle-right {
+  color:#069;
+}
+
+.form-control {
+  border-color:#039;	
+}
+
+.btn-send {
+  background-color:#09F;
+  color:#FFF;
+  margin-left:11px;
+}
+.btn-send:hover {
+  background-color:#069;
+  color:#FFF;
+}
+.bg-footer {
+  background-color:#069;
+}
+
+.img-thumbnail {
+  border-color: blue;
+  border-width: 1px;
+}
+.text-custom-here {
+  color:#FFF;
+}
+
+.btn-download {
+  background-color:#06F;
+  color:#FFF;
+  border-color: #FFF;
+}
+.btn-download:hover {
+  background-color:#036;
+  color:#FFF;
+  border-color: #06F;
+}
+.bg-download {
+  background-color:#06F;
+}
